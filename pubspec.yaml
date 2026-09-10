@@ -1,0 +1,26 @@
+name: local_music_player
+description: A cross-platform music player app for iOS and Android.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  just_audio: ^0.9.36
+  file_picker: ^6.1.1
+  provider: ^6.0.0
+  intl: ^0.19.0
+  audio_session: ^0.1.16
+  path_provider: ^2.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
